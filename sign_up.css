@@ -1,0 +1,79 @@
+
+.background_image{
+     margin-top: 45px;
+     background-image: url(photo/back.jpeg);
+     background-repeat: no-repeat;
+     width: 1536px;
+     height: 658px;
+     background-size: cover;
+     /* background-position:0px -600px; */
+     /* filter: blur(10px); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.frist{
+     width: 300px;
+     height: 500px;
+     background-color: rgba(255, 255, 255, 0.193);
+     backdrop-filter: blur(5px);
+     border-radius: 40px;
+     display: block;
+     align-items: center;
+     justify-content: center;
+}
+::placeholder {
+     color: rgb(255, 255, 255);
+   }
+.blur{
+     box-shadow: 10px 10px 20px 3px rgba(255, 255, 255, 0.248);
+     border-radius: 40px;
+}
+.user-form{
+     padding: 20px;
+}
+.data{
+     outline: 10px;
+     background-color: rgba(255, 0, 0, 0);
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     padding: 5px;
+     font-size: large;
+     color: white;
+     border-color: rgb(255, 255, 255);
+     width: 95%;
+}
+.second img{
+     padding:30px 80px;
+     width: 40%;
+}
+.forget{
+     color:white;
+     /* padding: 5px; */
+     border-radius: 24px;
+     /* margin-top: 20px; */
+     font-size: large;
+     margin-left: 140px;
+     width: 100%;
+}
+.btn{
+     display: block;
+     color: orange;
+     background-color: rgb(0, 0, 0);
+     border-radius: 10px;
+     border: 4px solid;
+     border-color: orange;
+     padding: 10px 80px;
+     margin-left: 40px;
+     font-size: larger;
+     /* border: none; */
+}
+.btn:hover{
+     background-color: rgb(30, 30, 30)
+}
+.end{
+     color: white;
+     font-size: large;
+     margin-left: 40px;
+}
