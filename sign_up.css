@@ -3,8 +3,8 @@
      margin-top: 45px;
      background-image: url(photo/back.jpeg);
      background-repeat: no-repeat;
-     width: 1536px;
-     height: 658px;
+     width: 1280px;
+     height: 528px;
      background-size: cover;
      /* background-position:0px -600px; */
      /* filter: blur(10px); */
@@ -65,8 +65,9 @@
      border: 4px solid;
      border-color: orange;
      padding: 10px 80px;
-     margin-left: 40px;
+     margin-left: 10px;
      font-size: larger;
+     margin-top: 30px;
      /* border: none; */
 }
 .btn:hover{
@@ -76,4 +77,14 @@
      color: white;
      font-size: large;
      margin-left: 40px;
+}
+span{
+     color: #ffffff;
+}
+.pa{
+ color: rgb(255, 208, 0);
+font-size: 19px;
+} 
+.pa1{
+     margin-left:100px;
 }

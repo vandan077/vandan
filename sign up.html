@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="nev.css" />
     <link rel="stylesheet" href="sign_up.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="regex.js"></script>
     <title>Sign up</title>
   </head>
   <body>
@@ -30,13 +32,13 @@
           <div class="second">
             <div><img src="photo/text-1697639356061.png" alt="" /></div>
           </div>
-          <form class="user-form">
-            <input class="data" type="text" placeholder="Email">
-            <input style="padding-top: 50px;" class="data" type="text" placeholder="Password">
-          </form><br>
-          <label class="forget">Forget Password</label><br><br><br>
-          <input class="btn" type="button" value="Sign in"><br><br>
-          <label class="end">Don't have an account? <a href="register.html" style="color: rgb(188, 188, 188);">Sign up</a></label>
+          <form class="user-form"  onsubmit="return nam()" method="get">
+            <input class="data" id="email" type="email" placeholder="Email">
+            <input style="padding-top: 50px;" class="data" id="pass" type="password" placeholder="Password">
+            <div style="margin-top: 50px;"><span class="pa1">Forget <a href="" class="pa">password</a></span></div>
+          <input class="btn" type="submit" value="Sign in"><br><br>
+        </form><br>
+          <div style="margin-top: -60px;"><label class="end">Don't have an account? <a href="register.html" style="color: rgb(188, 188, 188);">Sign up</a></label></div>
         </div>
       </div>
     </div>
